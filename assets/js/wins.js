@@ -291,6 +291,7 @@
 	const QUOTE_ICON_PATH = '/assets/images/wins-page/quote-icon.svg'
 	const AVATAR_DEFAULT_PATH = "/assets/images/wins-page/avatar-default.svg" 
 	const LINKEDIN_ICON = '/assets/images/wins-page/icon-linkedin-small.svg'
+	const GITHUB_ICON = '/assets/images/wins-page/icon-github-small.svg'
 	const winsCardContainer  = document.querySelector('#responses');
 
 	cards.forEach((card, index) => {
