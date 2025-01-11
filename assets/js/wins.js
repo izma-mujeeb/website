@@ -289,8 +289,7 @@
 	const cards = data.reverse();
 	const cardTemplate = document.getElementById("wins-card-template");
 	const QUOTE_ICON_PATH = '/assets/images/wins-page/quote-icon.svg'
-	const AVATAR_DEFAULT_PATH = "/assets/images/wins-page/avatar-default.svg"
-	const GITHUB_ICON = '/assets/images/wins-page/icon-github-small.svg';
+	const AVATAR_DEFAULT_PATH = "/assets/images/wins-page/avatar-default.svg" 
 	const LINKEDIN_ICON = '/assets/images/wins-page/icon-linkedin-small.svg'
 	const winsCardContainer  = document.querySelector('#responses');
 
@@ -331,7 +330,7 @@
 		if (card[github_url].length > 0){
 			cloneCardTemplate.querySelector('.wins-card-github-icon').href = card[github_url];
 			cloneCardTemplate.querySelector('.github-icon').src = GITHUB_ICON ;
-			cloneCardTemplate.querySelector('.github-icon').alt = `GitHub profile for ${card[name]}`;
+			cloneCardTemplate.querySelector('.github-icon').alt = `Github profile for ${card[name]}`;
 		} else {
 			cloneCardTemplate.querySelector('.wins-card-github-icon').setAttribute('hidden', 'true')
 		}
